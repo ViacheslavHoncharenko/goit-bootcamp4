@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#wrapper {
+    background-image: url("../img/page-bg.png");
+    background-repeat: no-repeat;
+    padding: 100px  100px;
+
+}
+.color-blue {
+    color: darkblue;
+}
+.container {
+    width: 480px;
+    margin: 0px auto;
+    background-color: aliceblue;
+    padding: 50px 0px 50px;
+    
+}
+.top{
+    width: 400px;
+    margin: auto;
+}
+.h2-top{
+    margin: 0px 0px 20px;
+}
+.img-mriya {
+    width: 100%;
+}

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    /*height: 100vh;*/
+    background-size: cover;
+    background: url("../img/page-bg.jpg") no-repeat center;
+    padding: 100px 0px;
+
+}
+.content{
+    width: 480px;
+    /*height: 500px;*/
+    background-color: #fff;
+    margin: auto;
+    padding: 60px 37px 44px;
+    font-family: Arial, sans-serif;
+}
+.title{
+    font-family: roboto. sans-serif ;
+    text-transform: uppercase;
+    color: #263555;
+    font-size: 25px;
+    margin-bottom: 27px;
+}
+.picture {
+    display: block;
+    margin: 0 auto 27px;
+}
+.sub-title{
+    font-size: 14px;
+    color: #263555;
+    line-height: 19px;
+    margin-bottom: 23px;
+}
+.sub-title-mod{
+    margin-bottom: 15px;
+    
+}
+.text {
+    color: #4e5050;
+    font-size: 12px;
+    line-height: 17px;
+}
+.article {
+    margin-bottom: 51px;
+}
+.article:last-child{
+    margin-bottom: 0px;
+}
+ul{
+    list-style: none;
+}
+list-article-item{
+         margin-bottom: 25px;
+}
+.list-article-item{
+    margin-bottom: 25px;
+
+}
+.list-article-item:last-child{
+    margin-bottom: 0px;
+}
+.article-second {
+    border-bottom:  2px solid #eeeeee;
+    padding-bottom:  52px;
+}
+.list-item{
+    color: #263555;
+    line-height: 19px;
+    font-style: 14px;
+    margin-bottom: 18px;
+}
+.list{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.list:last-child{
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+.text-bottom{
+    margin-bottom: 37px;
+}
