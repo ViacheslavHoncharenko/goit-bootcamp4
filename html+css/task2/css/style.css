@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    background-image: url("../img/1X.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 20px 0 0;
+}
+header{
+    height: 45px;
+    width: 1000px;
+    background-color: #ededed;
+    margin: 0 auto;
+}
+.logo{
+    display: inline-block;
+    width: 150px;
+}
+.logo-img{
+    width: 100px;
+    display: block;
+    line-height: 45px;
+}
+.nav-top{
+    display: inline-block;
+    margin-right: auto;
+    width: 500px;
+}
+li{
+    display: inline-block;
+}
