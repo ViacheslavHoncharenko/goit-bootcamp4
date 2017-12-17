@@ -19,18 +19,22 @@ header{
 }
 .logo{
     display: inline-block;
-    width: 150px;
+    /*width: 150px;*/
 }
 .logo-img{
-    width: 100px;
+    width: 200px;
     display: block;
     line-height: 45px;
 }
 .nav-top{
     display: inline-block;
-    margin-right: auto;
-    width: 500px;
+    margin-left: 275px;
+    /*width: 500px;*/
 }
-li{
+.nav-top-li{
     display: inline-block;
+    width: 80px;
+}
+ul{
+    display: block;
 }
