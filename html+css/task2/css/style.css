@@ -115,6 +115,7 @@ header{
     display: block;
     height: 33px;
     border-bottom: solid 1px #4c545e;
+    font-size: 12px;
 }
 .nav-left-li:last-child{
 
@@ -130,6 +131,7 @@ header{
 .top-text-p{
     font-size: 14px;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .picture{
@@ -145,11 +147,23 @@ header{
 .article-section-lists-uol{
     width: 200px;
     font-size: 12px;
+    line-height: 17px;
 }
 .block-inline{
     display: inline-block;
 }
-.h5-test{
-    width: 250px;
-    display: inline-block;
+.article-list{
+    margin-left: 260px;
+    margin-top: 25px;
+}
+.list-ol-none{
+    list-style-type: none;
+}
+.block-title{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.article-title{
+    padding-bottom: 7px;
+    margin-top: 10px;
 }
