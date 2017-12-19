@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-decor-none{
+    text-decoration: none;
+}
+.wrapper{
+    background-color: #373e47;
+    min-height: 500px;
+    padding-top: 15px;
+
+}
+.menu-1{
+    width: 200px;
+    min-height: 210px;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 2px;
+}
+.ul-1{
+    width: 90%;
+    margin: auto;
+    padding: 10px 0 0;
+    line-height: 36px;
+}
+.li-1{
+    border: 1px solid #0000ff;
+    height: 36px;
+    list-style-type: none;
+    /*color: #0000ff;*/
+    font-family: sans-serif;
+    margin-bottom: 3px;
+    padding-left: 3px;
+}
+.a-1:hover{
+    font-weight: bold;
+}
+/*Task2*/
+.li-2{
+    border: 1px solid #0000ff;
+    height: 36px;
+    list-style-type: none;
+    font-family: sans-serif;
+    margin-bottom: 3px;
+    /*padding-left: 3px;*/
+    background-color: #4c545e;
+
+}
+.a-2{
+    color: #ffffff;
+    display: block;
+    padding-left: 3px;
+}
+.a-2:hover{
+    background-color: #ffffff;
+    color: #0E1116;
+    height: 34px;
+}
+/*Task3*/
+.menu-3{
+    height: 30px;
+    width: 800px;
+    background-color: #ffa500;
+    margin: auto;
+}
+.li-3{
+    list-style-type: none;
+    float: left;
+    width: 50px;
+    line-height: 30px;
+    text-align: center;
+}
+.a-3{
+    display: block;
+    color: white;
+}
+.a-3:hover{
+    background-color: red;
+}
+.clearfix::after{
+     content: "";
+     display: block;
+     clear: both;
+ }
+/*task4*/
+.menu-4{
+    width: 500px;
+    min-height: 200px;
+    background-color: white;
+    margin: 10px auto;
+}
+.h-4{
+    margin-bottom: 10px;
+}
+.p-4{
+    margin-bottom: 5px;
+}
+.p-4:first-letter{
+    color: #ff0000;
+    font-size: large;
+}
+/*task5*/
+.p-5:first-line{
+    color: #ff0000;
+}
+
+/*task6*/
+.p-6::selection{
+    color: green;
+}
+/*task7*/
+.menu-7{
+    margin: auto;
+    display: block;
+    width: 100px;
+}
+.inp-7:focus{
+    color: red;
+}
+/*task8*/
+.inp-8:focus{
+    border-color: green;
+    color: green;
+}
+/*task9*/
+
+.inp-9:focus{
+    width: 250px;
+}
+/*task10*/
+.p-10:before{
+ content: "Начало:";
+    color: green;
+}
+.p-10:after{
+    content: "Конец";
+    color: red;
+}
+/*task11*/
+.menu-11{
+    width: 300px;
+    margin: auto;
+}
+.li-11:nth-child(3n+3){
+    color: red
+}
