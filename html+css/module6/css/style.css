@@ -4,15 +4,15 @@
     box-sizing: border-box;
     font-family: 'Nunito Sans', sans-serif;
 }
+:root{
+    --white: #ffffff;
+}
 .wrapper{
     min-height: 900px;
     /*width: 100%;*/
-
     background-color: #44555b;
     padding: 20px;
 }
-
-
 .header{
     display: flex;
     height: 80px;
@@ -20,7 +20,6 @@
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-
 }
 .test{
     width: 320px;
@@ -40,6 +39,7 @@
     color: #82868f;
 }
 .logo-a{
+    display: block;
 }
 .header-sign{
     width: 110px;
@@ -49,4 +49,39 @@
     border-color: transparent;
     text-decoration: none;
     color: white;
+}
+.main-1{
+    background-image: url("../img/walls.jpg");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    text-transform: capitalize;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 60px 0;
+
+
+}
+.main1-h2{
+    color: var(--white);
+    margin: 0 0 30px 0;
+
+}
+.main1-h2:before{
+     content: "\2605";
+     font-size: 15px;
+     vertical-align: middle;
+     margin: 0 10px 0;
+ }
+.main1-h2:after{
+    content: "\2605";
+    font-size: 15px;
+    vertical-align: middle;
+    margin: 0 10px 0;
+}
+.main1-p{
+    width: 800px;
+    color: var(--white);
+
 }
