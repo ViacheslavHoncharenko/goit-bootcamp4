@@ -50,19 +50,21 @@
     text-decoration: none;
     color: white;
 }
+.flx{
+    display: flex;
+    flex-direction: column;
+
+}
 .main-1{
     background-image: url("../img/walls.jpg");
     background-size: cover;
     height: 500px;
-    display: flex;
     text-transform: capitalize;
     align-items: center;
-    flex-direction: column;
     justify-content: flex-end;
     padding: 0 0 60px 0;
-
-
 }
+
 .main1-h2{
     color: var(--white);
     margin: 0 0 30px 0;
@@ -81,7 +83,23 @@
     margin: 0 10px 0;
 }
 .main1-p{
-    width: 800px;
+    width: 804px;
     color: var(--white);
+}
+.main2{
+    background-color: var(--white);
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 30px 0;
 
+}
+.main2-h2{
+    color: #0ebfdd;
+    text-transform: capitalize;
+    margin: 0 0 20px 0;
+    font-size: 30px;
+}
+.main2-p{
+    width: 804px;
 }
