@@ -7,6 +7,10 @@
 :root{
     --white: #ffffff;
 }
+.text-up{
+    text-transform: uppercase;
+}
+/**/
 .wrapper{
     min-height: 900px;
     /*width: 100%;*/
@@ -55,6 +59,7 @@
     flex-direction: column;
 
 }
+/*1 часть*/
 .main-1{
     background-image: url("../img/walls.jpg");
     background-size: cover;
@@ -86,6 +91,7 @@
     width: 804px;
     color: var(--white);
 }
+/*2 часть*/
 .main2{
     background-color: var(--white);
     height: 250px;
@@ -102,4 +108,51 @@
 }
 .main2-p{
     width: 804px;
+}
+/*3 часть*/
+.main3{
+    height: 600px;
+    background-color: #0ebfdd;
+    justify-content: center;
+    align-items: center;
+}
+.main3-h3{
+    text-transform: capitalize;
+    color: var(--white);
+    font-size: 30px;
+}
+.main3-picture{
+    margin: 120px 0;
+    /**/
+    display: flex;
+}
+.main3-p{
+    text-align: center;
+    color: var(--white);
+    text-transform: capitalize;
+}
+.main-picture{
+    border-radius: 50%;
+    margin: 0 30px;
+}
+.main3-work{
+     width: 150px;
+     height: 30px;
+     background-color: #0ebfdd;
+     border-radius: 40px;
+     border-color: var(--white);
+     color: var(--white);
+}
+/*часть4*/
+.main4{
+    background-image: url("../img/Map.png");
+    height: 600px;
+    background-size: cover;
+}
+/*часть5*/
+.footer{
+    background-color: #45494d;
+    height: 120px;
+    
+
 }
