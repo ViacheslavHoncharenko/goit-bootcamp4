@@ -240,6 +240,25 @@
 .block5-foot > p{
     font-size: 12px;
 }
-
+/*Block6*/
+.block6{
+    height: 160px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.block6 > h2{
+    text-transform: uppercase;
+    color: #66636d;
+}
+.block6-right{
+    display: flex;
+     width: 200px;
+    justify-content: space-around;
+}
+.block6-text{
+    text-transform: capitalize;
+}
 
 
