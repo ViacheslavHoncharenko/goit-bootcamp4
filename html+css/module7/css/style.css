@@ -11,7 +11,7 @@
 /*header*/
 .header{
     padding: 10px 0 70px 0;
-    height: 670px;
+    /*height: 670px;*/
     background-image: url("../img/P1.png");
     display: flex;
     align-items: center;
@@ -24,6 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding:  30px 0 135px 0;
 }
 .logo{
     display: block;
@@ -74,6 +75,9 @@
     background: none;
     color: #00e0d0;
 }
+.dott{
+    padding: 165px 0 0 0;
+}
 /*Block2*/
 .block2{
     padding: 70px 0;
@@ -120,8 +124,7 @@
 /*Block4*/
 .block4{
     background-color: white;
-    height: 600px;
-    padding: 75px 0 40px 0;
+    padding: 60px 0 60px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,8 +188,7 @@
     background-image: url("../img/P3.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 712px;
-    padding: 35px 0 35px 0;
+    padding: 85px 0 85px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -242,13 +244,13 @@
 }
 /*Block6*/
 .block6{
-    height: 660px;
+
     background-color: #ffffff;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    padding-top: 25px;
+    padding: 54px 0;
 }
 .block6-left{
     display: flex;
@@ -304,12 +306,12 @@
 }
 /*Block7*/
 .block7{
-    height: 500px;
     background-image: url("../img/P3.png");
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding: 90px 0;
 }
 .block7-top > p{
     color: #ebebee;
@@ -349,11 +351,11 @@
 }
 /*block8*/
 .block8{
-    height: 650px;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 88px 0;
 }
 .block8-left{
     display: flex;
@@ -439,10 +441,10 @@ background: url('../img/sprites/css_sprites.png') -144px -161px;
 /*block9*/
 .block9{
     background-image: url("../img/P4.png");
-    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 65px 0;
 }
 .block9-main{
     width: 940px;
