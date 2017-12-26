@@ -76,7 +76,7 @@
 }
 /*Block2*/
 .block2{
-    height: 400px;
+    padding: 70px 0;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -106,7 +106,7 @@
 /*Block3*/
 .block3{
     background-image: url("../img/P2.png");
-    height: 550px;
+    padding: 205px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,7 +121,7 @@
 .block4{
     background-color: white;
     height: 600px;
-    padding: 35px 0 0 0;
+    padding: 75px 0 40px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -373,11 +373,68 @@
     height: 35px;
 }
 .block8-right{
-    height: 450px;
+    height: 473px;
+    width: 400px;
+    margin: 0 0 0 35px;
 
 }
 .block8-right > h3{
     text-transform: uppercase;
+}
+.block8-right > ul{
+    display: flex;
+    flex-wrap: wrap;
+    height: 430px;
+    align-items: center;
+
+}
+.block8-logo-footer {
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+.block8-logo-footer >a{
+    display: block;
+
+}
+.bg-Zara_Logo_svg{
+    width: 162px; height: 22px;
+    background: url('../img/sprites/css_sprites.png') -10px -237px;
+}
+.bg-Logo_of_Mango__new__svg{
+    width: 138px; height: 22px;
+    background: url('../img/sprites/css_sprites.png') -293px -54px;
+}
+.bg-1280px_Barneys_New_York_Logo_svg{
+    width: 154px; height: 41px;
+    background: url('../img/sprites/css_sprites.png') -10px -100px;
+}
+.bg-1280px_Gucci_Logo_svg{
+    width: 140px; height: 21px;
+    background: url('../img/sprites/css_sprites.png') -293px -96px;
+}
+.bg-Calvin_klein_logo_svg{
+    width: 151px; height: 24px;
+    background: url('../img/sprites/css_sprites.png') -293px -10px;
+}
+.bg-1280px_Logo_NIKE_svg{
+    width: 95px; height: 34px;
+    background: url('../img/sprites/css_sprites.png') -293px -137px;
+}
+.bg-Converse_logo_svg{
+    width: 113px; height: 69px;
+    background: url('../img/sprites/css_sprites.png') -160px -10px;
+}
+.bg-Puma_Logo_svg{
+    width: 114px; height: 56px;
+    background: url('../img/sprites/css_sprites.png') -10px -161px;
+}
+.bg-1280px_Levis_logo_svg{
+width: 109px; height: 53px;
+background: url('../img/sprites/css_sprites.png') -144px -161px;
+}
+.bg-Billabong_svg{
+    width: 130px; height: 70px;
+    background: url('../img/sprites/css_sprites.png') -10px -10px;
 }
 /*block9*/
 .block9{
@@ -392,6 +449,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
 
 }
 .block9-left{
@@ -399,7 +457,7 @@
     height: 170px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: baseline;
 }
 .block9-left > p{
     color: #ebeaed;
@@ -421,7 +479,78 @@
 }
 .block9-right{
     width: 290px;
-    height: 240px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.block9-address{
+    display: block;
+
+}
+.block9-address{
+     position: relative;
+    color: #ebeaed;
+}
+.block9-address:before{
+    content: "";
+    background-image: url("../img/marker.png");
+    display: block;
+    width: 14px;
+    height: 19px;
+    position: absolute;
+    left: -20px;
+}
+.block9-phone{
+    position: relative;
+    color: #ebeaed;
+}
+.block9-phone:before{
+    content: "";
+    background-image: url("../img/phone.png");
+    display: block;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: -20px;
+}
+.block9-right > h4{
+    color: #ebeaed;
+    text-transform: uppercase;
+}
+.block9-input{
+    background: none;
+    width: 210px;
+    height: 35px;
+    position: relative;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+}
+.social > i{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+
+}
+.block9-right-input{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.paper{
+    padding: 6.5px 17px;
+    font-size: 22px;
+    background-color: #a29bb4;
+
 }
 
 
